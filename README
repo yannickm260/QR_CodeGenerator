@@ -1,0 +1,53 @@
+# QR Code Generator
+
+This is a simple QR Code Generator built using HTML, Tailwind CSS for styling, and a JavaScript library for generating QR codes.
+
+## Features
+
+- Enter any text or URL to generate a QR code.
+- The generated QR code is displayed immediately after input.
+- Responsive design using Tailwind CSS.
+
+## Technologies Used
+
+- HTML
+- Tailwind CSS
+- JavaScript
+- [QRCode.js](https://davidshimjs.github.io/qrcodejs/)
+
+## Getting Started
+
+To run the QR Code Generator locally, follow these steps:
+
+1. **Clone the repository:**
+
+   
+bash
+   git clone https://github.com/yannickm260/QR_CodeGenerator.git
+   cd qrcodegenerator
+   
+
+2. **Open the HTML file:**
+
+   Open index.html in your web browser.
+
+3. **Usage:**
+
+   - Enter a text or a link in the input field.
+   - The QR code will be generated and displayed below the input field.
+
+## File Structure
+
+
+qrcodegenerator/
+├── index.html
+└── qrcode.min.js  (Make sure to include this file in your project)
+
+## Customization
+
+Feel free to customize the styles and functionality as per your requirements. You can modify the Tailwind CSS classes in the HTML file to change the appearance of the application.
+
+## Acknowledgments
+
+- [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework.
+- [QRCode.js](https://davidshimjs.github.io/qrcodejs/) for the QR code generation library.
